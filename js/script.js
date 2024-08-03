@@ -23,3 +23,13 @@ function ativarProduto(parametro) {
 }
 
 parametros.forEach(ativarProduto);
+
+// Perguntas Frequentes
+
+const perguntas = document.querySelectorAll(".perguntas button");
+
+function eventosPerguntas(pergunta) {
+  console.log(pergunta);
+}
+
+perguntas.forEach(eventosPerguntas);
